@@ -15,8 +15,8 @@ data_label = {
 
 # Train Configure
 # ===============
-training_data_path = './data/capsule/train'
-testing_data_path = './data/capsule/test'
+training_data_path = '{Path to training dataset}'
+testing_data_path = '{Path to test dataset}'
 
 mse = nn.MSELoss()
 cos = nn.CosineSimilarity()
